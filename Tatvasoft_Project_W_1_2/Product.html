@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon" />
+    <title>Product</title>
+    
+</head>
+<body>
+    <form style="max-width: 1500px; margin: auto;">
+       <div class="header">    
+         <div class="red_line"></div>
+         <div class="logo">
+                <img src="images/logo.png" alt="TatvaSoft"> </div> 
+         <div class="top_right">   
+               <a href="#" class="right_corner">Login</a>
+               <a href="#" class="right_corner">Register</a>
+               <a href="#" class="cart"> <img src="images/cart.svg" alt="Cart" style="height: 17px; width: 25px;">0 cart</a></div>
+       </div>
+       <div class="search_bar">
+               <input type="search" class="search" placeholder="What are you looking for...">
+               <button class="green-btn" type="submit">
+                <em><img class="s-img" src="images/search.svg" alt="search" /></em>Search
+               </button>
+               <button class="red-btn" type="submit">Cancel</button>
+        </div>
+        <div class="loc">
+                <h1>Product page</h1> 
+        </div>
+        <div class="ap-container">
+            <input class="product-search" type="search" placeholder="Search..."> 
+            <button class="ap-btn" type="submit">Add Product</button>
+        </div>
+        <table class="product-table">
+          <tbody>
+            <tr>
+                <td><b>Id</b></td>
+                <td class="column2"><b>Titiulo</b></td>
+                <td class="column3"><b>Fonte De Dasos</b></td>
+                <td colspan="2" class="column4"><b>Query</b></td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td class="column2">IBSM Followup</td>
+                <td class="column3">Data Source 1</td>
+                <td class="column4">Teste</td>
+                <td class="column5"><button class="edit-btn" type="submit">Edit</button><button class="delete-btn" type="submit">Delete</button> </td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td class="column2">IBSM Followup</td>
+                <td class="column3">Data Source 2</td>
+                <td class="column4">Teste</td>
+                <td class="column5"><button class="edit-btn" type="submit">Edit</button><button class="delete-btn" type="submit">Delete</button> </td>
+            </tr>
+            <tr>
+                <td>24</td>
+                <td class="column2">IBSM Followup</td>
+                <td class="column3">Data Source 2</td>
+                <td class="column4">Teste</td>
+                <td class="column5"><button class="edit-btn" type="submit">Edit</button><button class="delete-btn" type="submit">Delete</button> </td>
+            </tr>
+            <tr>
+                <td >16</td>
+                <td class="column2">IBSM Followup</td>
+                <td class="column3">Data Source 1</td>
+                <td class="column4">Teste</td>
+                <td class="column5"><button class="edit-btn" type="submit">Edit</button><button class="delete-btn" type="submit">Delete</button> </td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td class="column2">IBSM Followup</td>
+                <td class="column3">Data Source 2</td>
+                <td class="column4">Teste</td>
+                <td class="column5"><button class="edit-btn" type="submit">Edit</button><button class="delete-btn" type="submit">Delete</button> </td>
+            </tr>
+            <tr>
+                <td>23</td>
+                <td class="column2">IBSM Followup</td>
+                <td class="column3">Data Source 2</td>
+                <td class="column4">Teste</td>
+                <td class="column5"><button class="edit-btn" type="submit">Edit</button><button class="delete-btn" type="submit">Delete</button> </td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="product-list">
+            <label for="no.">Rows per page:</label>
+            <select class="selection" name="rows" id="no.">
+              <option value="5">5</option>
+              <option value="1">1</option>
+              <option value="10">10</option>
+              <option value="30">30</option>
+            </select> 
+            <p style="margin-left: 25px;">1-5 of 6</p>
+            <div>  
+                <a class="pn" href="#"> < </a>
+                <a class="pn" href="#"> > </a>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="f-logo"><img src="images/logo.svg" alt="TatvaSoft"></div>
+            <div class="f-text"><p>© 2015 Tatvasoft.com. All rights reserved.</p></div>
+        </footer>
+    </form>
+</body>
+</html>   

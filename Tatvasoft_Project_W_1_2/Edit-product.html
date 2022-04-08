@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon" />
+    <title>Edit Product</title>
+    
+</head>
+<body>
+    <form style="max-width: 1500px; margin: auto;">
+       <div class="header">    
+         <div class="red_line"></div>
+         <div class="logo">
+                <img src="images/logo.png" alt="TatvaSoft"> </div> 
+         <div class="top_right">   
+               <a href="#" class="right_corner">Login</a>
+               <a href="#" class="right_corner">Register</a>
+               <a href="#" class="cart"> <img src="images/cart.svg" alt="Cart" style="height: 17px; width: 25px;">0 cart</a></div>
+       </div>
+       <div class="search_bar">
+               <input type="search" class="search" placeholder="What are you looking for...">
+               <button class="green-btn" type="submit">
+                <em><img class="s-img" src="images/search.svg" alt="search" /></em>Search
+               </button>
+               <button class="red-btn" type="submit">Cancel</button>
+        </div>
+        <div class="loc">
+                <h1>Edit Product</h1> 
+        </div>
+
+        <div class="edit-product">
+          <div class="fname-lname">
+            <div>
+               <label for="fname">First Name</label><br><br>
+               <input type="text" id="fname" name="fname" class="input-container">        
+            </div>
+            <div class="right-container">
+                <label for="lname">Last Name</label><br><br>
+                <input type="text" id="lname" name="lname" class="input-container">  
+            </div>
+          </div>
+           <div class="bottom-inputs">
+             <div class="fname-lname">
+                <div> 
+                    <label for="no.">Shop by Categories</label><br><br>
+                    <select  name="rows" id="no." class="selection-container">
+                    <option value="Computer Science">Computer Science</option>
+                    <option value="Algorithms">Algorithms</option>
+                    <option value="Networking">Networking</option>
+                    <option value="Data structure">Data structure</option>
+                    </select>       
+                </div>
+                <div class="right-container">
+                    <label for="discription">Discription</label><br><br>
+                    <input type="text" id="discription" name="discription" class="input-container">  
+                </div>
+              </div>
+           </div>
+           <input type="file" class="file">
+           <div class="bottom-btn">
+              <button type="submit" class="save-btn">Save</button>
+              <button type="submit" class="cancel-btn">Cancel</button>
+           </div>
+        </div>
+        <footer class="footer">
+          <div class="f-logo"><img src="images/logo.svg" alt="TatvaSoft"></div>
+          <div class="f-text"><p>© 2015 Tatvasoft.com. All rights reserved.</p></div>
+       </footer>
+    </form>
+ </body>
+</html>
+ 
